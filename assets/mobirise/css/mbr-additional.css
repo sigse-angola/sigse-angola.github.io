@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
 
@@ -29,7 +30,7 @@ body {
   font-size: 3.2rem;
 }
 .display-2 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 2rem;
 }
 .display-2 > .mbr-iconfont {
@@ -43,11 +44,11 @@ body {
   font-size: 1.28rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -78,9 +79,9 @@ body {
     line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1610,6 +1611,9 @@ body {
 }
 .cid-r1y1NwwAaI .mbr-overlay ~ .container-slide {
   z-index: auto;
+}
+.cid-r1y1NwwAaI H2 {
+  color: #ffffff;
 }
 .cid-r2cIODCLI6 {
   background-image: url("../../../assets/images/mbr-6-1920x1280.jpg");
